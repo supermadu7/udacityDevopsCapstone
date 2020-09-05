@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        registry = "supermadu/capstone"
+        registry = "supermadu7/capstone"
         registryCredential = 'supermadu'
         dockerImage = ''
     }
